@@ -1,0 +1,33 @@
+a
+
+    Î«`ö  ã                   @   s¬   d dl Z d dlZd dlZd dlZd dlmZ dd„ Ze d¡Ze 	¡  
+d¡Z	e	eed ƒv r>ejed e	k Z
+ee
+jd ƒZee
+jd	 ƒZeeeƒ e d
+¡ edƒ q>dS )é    N)Údatetimec                 C   sà   t  d¡ t d¡ t d¡}t |¡ t ¡  t d¡}t |¡ t ¡  t | ¡ t 	d¡}|D ] }t |¡ t ¡  t d¡ qdt d¡}t |¡ t ¡  t d¡ t d	¡}t |¡ t ¡  t |¡ t 
+d
+¡ d S )NzC:\Zoom.exeé
+   zjoin_button.pngzmeeting_id_button.pngz
+media_btn.pngé   zjoin_btn.pngé   zmeeting_pswd.pngZenter)Ú
+subprocessZcallÚtimeÚsleepÚ	pyautoguiZlocateCenterOnScreenZmoveToZclickÚwriteZlocateAllOnScreenZpress)Z	meetingidZpswdZjoin_btnZmeeting_id_btnZ	media_btnZbtnZmeeting_pswd_btn© r   úhC:\Users\ALBIN PRAVEEN\Downloads\Zoom-Automation-Python-master (2)\Zoom-Automation-Python-master\main.pyÚsign_in   s.    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r
+   ztimings.csvz%H:%MZtimings)r   é   )r   r   é(   z	signed in)r   r	   r   ZpandasZpdr   r
+   Zread_csvZdfZnowÚstrftimeÚstrZlocÚrowZilocZm_idZm_pswdr   Úprintr   r   r   r   Ú<module>   s   ,
+
+
+
